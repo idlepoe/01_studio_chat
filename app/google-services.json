@@ -15,14 +15,6 @@
       },
       "oauth_client": [
         {
-          "client_id": "625713590881-acllilc2h22fnr74aorevejli72ji7md.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "leejeyoung.pengchat",
-            "certificate_hash": "41ea56948ac9c43d543a76cc99e7b8b700fd2fd6"
-          }
-        },
-        {
           "client_id": "625713590881-1adt4f8b3n86tp6riajeukqs1u7pv6ni.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -37,57 +29,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "625713590881-1adt4f8b3n86tp6riajeukqs1u7pv6ni.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:625713590881:android:1722f61523b61209",
-        "android_client_info": {
-          "package_name": "leejeyoung.pengtodo"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "625713590881-56l0pj64hgv9o7tomt8sh62ohajadg3f.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "leejeyoung.pengtodo",
-            "certificate_hash": "41ea56948ac9c43d543a76cc99e7b8b700fd2fd6"
-          }
-        },
-        {
-          "client_id": "625713590881-1adt4f8b3n86tp6riajeukqs1u7pv6ni.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDendDxromJmESC3V0Nb1EIoIW5HYdKHNM"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "625713590881-1adt4f8b3n86tp6riajeukqs1u7pv6ni.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2

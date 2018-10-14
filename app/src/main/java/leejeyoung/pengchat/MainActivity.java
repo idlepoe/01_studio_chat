@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ListView;
 
 import com.google.firebase.database.ChildEventListener;
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText txtNickname, txtRoom;
     private ListView chat_list;
-    private Button btn_in;
+    private ImageButton btn_in;
 
     private FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
     private DatabaseReference databaseReference = firebaseDatabase.getReference();
@@ -43,15 +44,13 @@ public class MainActivity extends AppCompatActivity {
                     return;
 
                 Intent intent = new Intent(MainActivity.this, ChatActivity.class);
-                intent.putExtra("chatName", txtNickname.getText().toString());
-                intent.putExtra("userName", txtRoom.getText().toString());
+                intent.putExtra("chatName", txtRoom.getText().toString());
+                intent.putExtra("userName", txtNickname.getText().toString());
                 startActivity(intent);
             }
         });
-//
+
         showChatList();
-
-
     }
 
     private void showChatList() {
